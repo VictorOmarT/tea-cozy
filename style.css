@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+    list-style: none;
+}
+
+header li {
+    margin: 0.5em;
+}
+
+#mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url(/files/img-mission-background.webp);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+#tea-month {
+    width: 1000px
+}
